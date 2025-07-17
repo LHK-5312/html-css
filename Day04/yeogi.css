@@ -1,0 +1,36 @@
+.real-main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.imgbox{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;   
+    margin-bottom: 20px;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.real-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 6px;
+    object-fit: cover;
+
+}
+
